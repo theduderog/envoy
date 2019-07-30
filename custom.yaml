@@ -16,7 +16,7 @@ static_resources:
     listener_filters:
     - name: envoy.listener.tls_inspector
       typed_config: {}
-    - name: envoy.listener.original_dst
+    - name: envoy.listener.original_dst_sni
       typed_config: {}
     filter_chains:
     - filters:
