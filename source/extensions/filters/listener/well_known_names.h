@@ -18,6 +18,8 @@ public:
   const std::string HttpInspector = "envoy.listener.http_inspector";
   // Original destination listener filter
   const std::string OriginalDst = "envoy.listener.original_dst";
+  // Original destination listener SNI filter
+  const std::string OriginalDstSni = "envoy.listener.original_dst_sni";
   // Original source listener filter
   const std::string OriginalSrc = "envoy.listener.original_src";
   // Proxy Protocol listener filter
